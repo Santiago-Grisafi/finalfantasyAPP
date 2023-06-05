@@ -1,0 +1,50 @@
+<div class="row mt-3 card border border-rounded mb-5">
+    <div class="col text-center">
+        <img [src]="data.picture" [alt]="data.name" />
+        <h3 class="mt-2"><i class="bi bi-person-circle"></i> {{data.name}} <i class="bi bi-person-circle"></i></h3>
+    </div>
+    <div class="col text-center">
+        <hr>
+        <h5><i class="bi bi-info-circle-fill"></i> Basic Description:</h5>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <p><i class="bi bi-person-badge-fill"></i> <b> Japenese Name: </b>{{data.japaneseName}}</p>
+            </div>
+            <div class="col">
+                <p><i class="bi bi-person-badge-fill"></i> <b> HP: </b>{{data.hitPoints}}</p>
+            </div>
+            <div class="col">
+                <p><i class="bi bi-amd"></i> <b> MP: </b>{{data.manaPoints}}</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <p><b><i class="bi bi-calendar2-heart-fill"></i> Attack: </b>{{data.attack}}</p>
+            </div>
+            <div class="col">
+                <p><b><i class="bi bi-activity"></i> Defense: </b>{{data.defense}}</p>
+            </div>
+            <div class="col">
+                <p><b><i class="bi bi-balloon-heart-fill"></i> Game: </b>{{data.game}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p><b><i class="bi bi-balloon-heart-fill"></i> Affinity: </b>{{data.elementalAffinity}}</p>
+            </div>
+            <div class="col">
+                <p><b><i class="bi bi-arrow-through-heart-fill"></i> Weak: </b>{{data.elementalWeakness}}</p>
+            </div>
+        </div>
+        <hr>
+        <h5><i class="bi bi-pencil-square"></i> Description:</h5>
+        <hr>
+        <p>{{data.description}}</p>
+        <hr>
+        <button class="btn btn-danger btn-block" [routerLink]="['/home']"><i class="bi bi-backspace-fill"></i> Back to
+            Search Page</button>
+        <hr>
+    </div>
+</div>

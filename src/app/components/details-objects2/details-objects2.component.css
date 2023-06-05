@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+    img {
+        width: 70%;
+        height: 70%;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    img {
+        width: 70%;
+        margin-top: 10px;
+        height: auto;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    img {
+        width: 258px;
+        margin-top: 10px;
+        height: auto;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    img {
+        width: 258px;
+        margin-top: 30px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    img {
+        width: 258px;
+        margin-top: 30px;
+        height: auto;
+    }
+}

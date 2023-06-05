@@ -1,0 +1,39 @@
+.marginRadios{
+  margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .inputSearch{
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .inputSearch{
+    width: 70%;
+    margin: auto;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .inputSearch{
+    width: 70%;
+    margin: auto;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .inputSearch{
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .inputSearch{
+    width: 50%;
+    margin: auto;
+  }
+}

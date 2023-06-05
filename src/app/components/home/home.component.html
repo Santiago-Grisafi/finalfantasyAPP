@@ -1,0 +1,8 @@
+<div class="text-center mt-5">
+    <app-img-logo></app-img-logo>
+</div>
+<div class="text-center">
+    <app-search (setData)="getData($event)" (setFilter)="getFilter($event)" (setInput)="input"></app-search>
+</div>
+
+<app-results [results]="data" [filter]="filter"></app-results>

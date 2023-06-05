@@ -1,0 +1,15 @@
+<div class="filter">
+    <div class="form-check form-check-inline marginRadios">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="characters" value="characters"
+            checked [(ngModel)]="selected">
+        <label class="form-check-label" for="characters">Characters</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="monsters" value="monsters"
+            [(ngModel)]="selected"> <label class="form-check-label" for="monsters">Monsters</label>
+    </div>
+</div>
+<div class="input-group inputSearch">
+    <input type="search" class="form-control rounded" placeholder="Input your Character" aria-label="Search"
+        aria-describedby="search-addon" #searchInput name="serachInput" id="searchInput" (keyup)="searchData()" />
+</div>
