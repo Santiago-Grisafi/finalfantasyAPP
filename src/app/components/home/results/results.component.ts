@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class ResultsComponent {
 
-  @Input() results: any[] = [];
+  @Input() results: any[] = [{}];
   @Input() filter: string = "";
 
 }
